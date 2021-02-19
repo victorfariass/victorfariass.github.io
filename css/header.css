@@ -2,6 +2,7 @@
   display: flex;
   justify-content: space-evenly;
   background-color: #585555;
+  width: 100%;
 }
 
 .nav-item {
@@ -19,4 +20,14 @@
   text-decoration: none;
   color: white;
   font-weight: bold;
+}
+
+@media ( max-width: 900px ) {
+  .nav-item {
+    padding: 10px;
+  }
+
+  .nav-item a {
+    font-size: 17px;
+  }
 }

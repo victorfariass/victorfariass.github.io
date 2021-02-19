@@ -13,6 +13,7 @@
 .projetos-container .title {
   align-self: center;
   font-size: 26px;
+  margin-top: 20px;
 }
 
 .projeto-card {
@@ -41,4 +42,23 @@
 
 .textos .descricao {
   font-weight: lighter;
+}
+
+@media ( max-width: 810px ) {
+  .projetos-container {
+    width: 100%;
+  }
+
+  .projeto-card {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .projeto-card .imagem {
+    margin-bottom: 15px;
+  }
+
+  .projeto-card .textos {
+    text-align: center;
+  }
 }

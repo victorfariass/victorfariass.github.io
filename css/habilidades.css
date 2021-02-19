@@ -29,3 +29,26 @@
   font-weight: bold;
   margin-left: 0px;
 }
+
+@media ( max-width: 810px ) {
+  .skills-container h2 {
+    font-size: 18px;
+  }
+
+  .skills-container li {
+    font-size: 14px;
+  }
+
+  .soft-skills .title {
+    font-size: 16px;
+    margin-left: 10px;
+  }
+
+  .soft-skills h2 {
+    margin-left: 30px;
+  }
+
+  .soft-skills li {
+    margin-left: 30px;
+  }
+}
