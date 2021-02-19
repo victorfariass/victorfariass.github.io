@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.projetos-container {
+  display: flex;
+  flex-direction: column;
+  width: 800px;
+  margin: auto;
+}
+
+.projetos-container .title {
+  align-self: center;
+  font-size: 26px;
+}
+
+.projeto-card {
+  display: flex;
+  margin: 20px 0 10px 0;
+  padding: 10px;
+  background-color: rgb(228, 228, 228);
+}
+
+.projeto-card .imagem {
+  border: 1px solid black;
+  margin-right: 10px;
+  width: 150px;
+}
+
+.textos a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.textos a:hover {
+  text-decoration: underline;
+}
+
+.textos .descricao {
+  font-weight: lighter;
+}

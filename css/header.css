@@ -1,0 +1,22 @@
+.nav-container {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #585555;
+}
+
+.nav-item {
+  list-style: none;
+  padding: 20px;
+}
+
+.nav-item:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.nav-item a {
+  font-size: 29px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}

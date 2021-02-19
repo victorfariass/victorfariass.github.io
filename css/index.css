@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.sobre-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.imagem-perfil {
+  border: 2px solid black;
+  border-radius: 100%;
+  width: 130px;
+}
+
+.sobre-container h1 {
+  margin: 15px 10px;
+}
+
+.item {
+  margin: 8px
+}
+
+.logo {
+  margin: 15px;
+  width: 35px;
+}

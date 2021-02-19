@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.skills-container {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 30px;
+}
+
+.skills-container h2 {
+  margin-bottom: 25px;
+  font-size: 28px;
+}
+
+.skills-container li {
+  list-style: none;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.soft-skills li {
+  margin-left: 20px;
+}
+
+.soft-skills .title {
+  font-size: 22px;
+  font-weight: bold;
+  margin-left: 0px;
+}
