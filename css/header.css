@@ -1,7 +1,7 @@
 .nav-container {
   display: flex;
-  justify-content: space-evenly;
-  background-color: #585555;
+  justify-content: center;
+  background-color: #20af6c;
   width: 100%;
 }
 
@@ -10,16 +10,17 @@
   padding: 20px;
 }
 
-.nav-item:hover {
-  text-decoration: underline;
-  cursor: pointer;
-}
-
 .nav-item a {
   font-size: 29px;
   text-decoration: none;
-  color: white;
+  color: rgb(231, 231, 231);
   font-weight: bold;
+}
+
+.nav-item a:hover {
+  color: white;
+  cursor: pointer;
+  text-decoration: underline;
 }
 
 @media ( max-width: 900px ) {
