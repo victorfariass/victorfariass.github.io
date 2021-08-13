@@ -20,6 +20,20 @@
   margin: 15px 10px;
 }
 
+.portfolio {
+  font-size: 40px;
+  background-color: black;
+  border-radius: 10px;
+  padding: 10px;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.portfolio:hover {
+  text-decoration: underline;
+}
+
 .item {
   margin: 8px
 }
